@@ -25,7 +25,7 @@
                 background-color: white !important;
             }
             .title{
-                font-size: 5rem;
+                font-size: 3rem;
             }
             .full-height{
                 height: 100vh;
@@ -36,16 +36,16 @@
         </style>
     </head>
     <body>
-        <div class="d-flex justify-content-center full-height">
-            <div class="m-auto text-center">
-                <div class="my-5">
+        <div class="container-fluid full-height">
+            <div class="row text-center">
+                <div class="col-12 col-sm-4 my-5">
                     @livewire('live-search')
                 </div>
-                <div class="my-5">
+                <div class="col-12 col-sm-4 my-5">
                     <h1 class="title text-primary">Teams License</h1>
                     @livewire('license')
                 </div>
-                <div class="my-5">
+                <div class="col-12 col-sm-4 my-5">
                     <h1 class="title text-primary">Sales Dashboard</h1>
                     <livewire:sales-dashboard></livewire:sales-dashboard>
                 </div>
