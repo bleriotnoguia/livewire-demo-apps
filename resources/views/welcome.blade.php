@@ -39,6 +39,9 @@
         <div class="d-flex justify-content-center full-height">
             <div class="m-auto text-center">
                 <div class="my-5">
+                    @livewire('live-search')
+                </div>
+                <div class="my-5">
                     <h1 class="title text-primary">Teams License</h1>
                     @livewire('license')
                 </div>
